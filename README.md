@@ -1,36 +1,54 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Completo
 
-## Getting Started
+## Overview
 
-First, run the development server:
+A project aiming to create a todo list app that doesn't only stores your todos but includes helpful tools that assist you to complete the todos. Motive of this project is for me to learn next and all the stuff that comes along with it to create a fullstack app and hopefully deploy it.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Quickstart
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+1. Clone the repository
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+   ```shell
+    git clone https://github.com/ShadowofSkull/completo.git
+   ```
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+2. Install dependencies
 
-## Learn More
+   ```shell
+    npm i
+   ```
 
-To learn more about Next.js, take a look at the following resources:
+3. Run app locally
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+   ```shell
+    npm run dev
+   ```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Features
 
-## Deploy on Vercel
+- Todo list
+  - Add/delete/update
+  - create reminder (push notif)
+  - deadline
+  - stored locally
+  - create breakdown of steps/subtasks of todo
+  - organise task by time/priority
+- Pomodoro timer (for every todo)
+  - store time spent on todo
+- Strict mode
+  - optional to opt into blocking certain app/website
+- Account
+  - store on db
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Future plans
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- mobile/desktop deployment
+- discord bot
+
+## Author
+
+[ShadowofSkull](https://github.com/ShadowofSkull)
+
+## License
+
+[AGPL](LICENSE)
