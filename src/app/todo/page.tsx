@@ -1,6 +1,6 @@
 import Lists from "./Lists";
 
-const page = () => {
+export default function Page() {
   return (
     <div className="flex-col items-center justify-center m-4">
       <h1 className="text-xl font-bold text-center">TODO List</h1>
@@ -10,4 +10,4 @@ const page = () => {
   );
 };
 
-export default page;
+

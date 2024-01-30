@@ -1,7 +1,11 @@
 "use client";
 import { useState } from "react";
-import DeleteIcon from '@mui/icons-material/Delete';
-import StarBorderIcon from '@mui/icons-material/StarBorder';
+import DeleteIcon from "@mui/icons-material/Delete";
+import StarBorderIcon from "@mui/icons-material/StarBorder";
+
+import Accordion from "@mui/material/Accordion";
+import AccordionDetails from "@mui/material/AccordionDetails";
+import AccordionSummary from "@mui/material/AccordionSummary";
 
 const List = ({ marginY }: { marginY: string }) => {
   const [open, setOpen] = useState(false);
@@ -27,12 +31,23 @@ const List = ({ marginY }: { marginY: string }) => {
         <div className="collapse-content">
           <p>hello</p>
         </div>
-        <StarBorderIcon className="absolute z-50 top-20 left-64" onClick={()=> console.log("star")}/>
+        <StarBorderIcon
+          className="absolute z-50 top-20 left-64"
+          onClick={() => console.log("star")}
+        />
         <DeleteIcon
           className="absolute z-50 top-20 left-72"
           onClick={() => console.log("delete")}
         />
       </div>
+      <Accordion>
+        <AccordionSummary id="panel-header" aria-controls="panel-content">
+          Header
+        </AccordionSummary>
+        <AccordionDetails>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        </AccordionDetails>
+      </Accordion>
     </>
   );
 };
