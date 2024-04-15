@@ -40,6 +40,17 @@ A project aiming to create a todo list app that doesn't only stores your todos b
 - Account
   - store on db
 
+## Tech Stack
+
+- Frontend
+  - Nextjs
+- Backend
+  - Nodejs
+  - Expressjs
+  - Mongoose
+- DB
+  - MongoDB
+
 ## Future plans
 
 - mobile/desktop deployment
