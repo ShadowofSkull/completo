@@ -16,9 +16,8 @@ app.use((req, res, next) => {
 });
 
 app.use("/api/todos", routes);
-// app.get("/", (req, res) => {
-//   res.send("Hello World!");
-// });
+
+
 
 // connect to db
 async function main() {
