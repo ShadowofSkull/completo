@@ -1,14 +1,15 @@
 {
+  "proxy": "http://localhost:4000",
   "name": "completo",
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint",
+    "dev": "cd frontend && next dev",
+    "build": "cd frontend && next build",
+    "start": "cd frontend && next start",
+    "lint": "cd frontend && next lint",
     "test": "vitest",
-    "serve": "cd backend && nodemon server.js"
+    "serve": "cd backend && nodemon server"
   },
   "dependencies": {
     "@emotion/react": "^11.11.3",
